@@ -15,3 +15,5 @@ mongoose.connect(process.env.MONGODB_URI)
 // }
 
 module.exports = { mongoose }
+
+//MONGODB_URI="mongodb+srv://vercel-admin-user-6412a67ba2ff7937bd264f85:FbrdA5xmHYrYkaRL@cluster0.rktvjqq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
