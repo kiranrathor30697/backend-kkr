@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 require('dotenv').config()
 // mongoose.connect(`mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false`)
-mongoose.connect(process.env.CONNECTION_STRING)
+mongoose.connect(process.env.MONGODB_URI)
 .then(data=>console.log("connected"))
 .catch(err=>console.log(err))
 
